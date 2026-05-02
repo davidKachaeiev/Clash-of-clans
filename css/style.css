@@ -1,0 +1,23 @@
+.header-ul {
+    list-style: none;
+}
+
+.footer-logo {
+    background-color: blue;
+    color: wheat;
+}
+
+.text-block {
+    color: white;
+}
+
+.image-content {
+
+}
+.text-style {
+    text-align: right;
+   margin-left: -360px;
+}
+.img-style {    
+    margin-left: -360px;
+}
