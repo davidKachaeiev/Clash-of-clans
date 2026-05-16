@@ -11,13 +11,9 @@
     color: white;
 }
 
-.image-content {
-
+.text style {
+background: url(../img/hero_bg.webp) no-repeat center/cover;
 }
-.text-style {
-    text-align: right;
-   margin-left: -360px;
-}
-.img-style {    
-    margin-left: -360px;
+.img-style { 
+    
 }
