@@ -11,8 +11,10 @@
     color: white;
 }
 
-.text style {
-background: url(../img/hero_bg.webp) no-repeat center/cover;
+.text-style {
+
+    background: url(../img/hero_bg.webp) no-repeat center/cover;
+
 }
 .img-style { 
     
