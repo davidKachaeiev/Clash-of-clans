@@ -3,8 +3,16 @@
 }
 
 .footer-logo {
-    background-color: blue;
-    color: wheat;
+   
+    background: blue;
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+}
+
+.footer-logo a {
+    color: white;
 }
 
 .text-block {
@@ -12,10 +20,46 @@
 }
 
 .text-style {
-
     background: url(../img/hero_bg.webp) no-repeat center/cover;
-
 }
-.img-style { 
-    
+
+.img-style {}
+
+.Wrapper {
+
+    left: -30%;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    min-height: 20vh;
+    justify-content: space-between;
+}
+
+.main-img {
+    position: relative;
+    top: 0;
+    left: -60%;
+    display: flex;
+}
+
+.image-content {
+    display: flex;
+    gap: 20px;
+}
+
+.image-content img {
+    width: 50%;
+    height: 300px;
+}
+
+.phone-img {
+    position: relative;
+    margin-left: 50%;
+}
+.phone-img  {
+    display: flex;
+    justify-content: flex-start;
 }
