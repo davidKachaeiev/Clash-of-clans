@@ -3,7 +3,7 @@
 }
 
 .footer-logo {
-   
+
     background: blue;
     font-weight: bold;
     border: none;
@@ -23,8 +23,6 @@
     background: url(../img/hero_bg.webp) no-repeat center/cover;
 }
 
-.img-style {}
-
 .Wrapper {
 
     left: -30%;
@@ -43,23 +41,74 @@
     top: 0;
     left: -60%;
     display: flex;
+    width: 50%;
+    height: auto;
+}
+.main-photo {
+    width: 800px;
 }
 
 .image-content {
     display: flex;
     gap: 20px;
-}
-
-.image-content img {
     width: 50%;
     height: 300px;
 }
 
-.phone-img {
-    position: relative;
-    margin-left: 50%;
-}
-.phone-img  {
+.text-decor {
     display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.text-decor {
+    display: block;
+    margin-top: 40px;
+}
+
+.text-h {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-p {
+    display: flex;
+}
+
+.phone-img {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    transform: translateY(-70%);
+}
+
+.phone-img {
+    width: 50%;
+    max-height: 60vh;
+}
+
+.footer-two {
     justify-content: flex-start;
+    background: url(../img/bp_fon_klesh.webp) no-repeat center/cover;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+
+}
+
+.footer-text {
+    color: white;
+
+}
+
+.footer-photo {
+    position: absolute;
+    width: 800px;
+    height: auto;
+    top: 50px;
+    right: -200px;
+    right: 0;
+    transform: translateX(50%);
+}
+footer-photo {
 }
